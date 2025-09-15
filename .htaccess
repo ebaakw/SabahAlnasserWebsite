@@ -1,0 +1,11 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /
+
+# إذا الملف أو المجلد موجود اتركه كما هو
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# خلاف ذلك استخدم index.html
+RewriteRule ^ index.html [L]
