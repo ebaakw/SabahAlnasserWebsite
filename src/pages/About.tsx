@@ -7,20 +7,20 @@ const About = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-secondary/20">
       <Navbar />
-      
+
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
-            <img 
-              src={cooperativeLogo} 
-              alt="شعار جمعية العديلية التعاونية" 
+            <img
+              src={cooperativeLogo}
+              alt="شعار جمعية ضاحية صباح الناصر التعاونية"
               className="w-24 h-24 mx-auto mb-4"
             />
             <h1 className="text-4xl font-bold text-primary mb-4 arabic-title">
-              نبذة عن جمعية العديلية التعاونية
+              نبذة عن جمعية ضاحية صباح الناصر التعاونية
             </h1>
             <p className="text-xl text-muted-foreground arabic-body">
-              1969 - 2024
+              1989 - 2022
             </p>
           </div>
 
@@ -32,10 +32,13 @@ const About = () => {
             </CardHeader>
             <CardContent className="arabic-body text-lg leading-relaxed">
               <p className="mb-4">
-                تم إشهار جمعية العديلية التعاونية سنة 1981 لتمارس نشاطها ضمن الأهداف التي أنشأت من أجلها وتخدم الجمعية منطقة العديلية.
+                تم إشهار جمعية ضاحية صباح الناصر التعاونية سنة 1989 لتمارس
+                نشاطها ضمن الأهداف التي أنشأت من أجلها وتخدم الجمعية منطقة ضاحية
+                صباح الناصر.
               </p>
               <p>
-                يوجد بها عدد (1) سوق مركزي بمركز العديلية الرئيسي بقطعة (4) يعمل على مدار 24 ساعة يومياً وعدد (3) أفرع كأسواق مصغرة بكل قطعة سكنية.
+                يوجد بها عدد (2) سوق مركزي بمركز الضاحية الرئيسي يعمل على مدار
+                24 ساعة يومياً وعدد (12) فرع كأسواق مصغرة بكل قطعة سكنية.
               </p>
             </CardContent>
           </Card>
@@ -48,9 +51,10 @@ const About = () => {
             </CardHeader>
             <CardContent className="arabic-body text-lg">
               <p className="mb-6 leading-relaxed">
-                تهدف الجمعية إلى الارتقاء بالمستوى الاقتصادي والاجتماعي لمساهمينها عن طريق اتباع المبادئ التعاونية والسبيل إلى ذلك أن تقوم بما يلي:
+                تهدف الجمعية إلى الارتقاء بالمستوى الاقتصادي والاجتماعي لأعضائها
+                عن طريق اتباع المبادئ التعاونية والسبيل إلى ذلك أن تقوم بما يلي:
               </p>
-              
+
               <div className="grid gap-4 md:grid-cols-2">
                 <div className="bg-secondary/50 p-4 rounded-lg">
                   <div className="flex items-center gap-3 mb-2">
@@ -60,7 +64,7 @@ const About = () => {
                     <h3 className="font-semibold">ترسيخ المفهوم التعاوني</h3>
                   </div>
                   <p className="text-muted-foreground mr-11">
-                    ترسيخ المفهوم التعاوني لدى المساهمين
+                    ترسيخ المفهوم التعاوني لدى أعضائها
                   </p>
                 </div>
 
@@ -72,7 +76,7 @@ const About = () => {
                     <h3 className="font-semibold">توفير الخدمات والأنشطة</h3>
                   </div>
                   <p className="text-muted-foreground mr-11">
-                    توفير الخدمات والأنشطة التي يحتاجها المساهم
+                    توفير الخدمات والأنشطة التي يحتاجها الأعضاء
                   </p>
                 </div>
 
@@ -106,7 +110,7 @@ const About = () => {
           <Card>
             <CardContent className="pt-6">
               <p className="text-center text-lg arabic-body text-muted-foreground">
-                مع تحيات / مجلس إدارة جمعية العديلية التعاونية
+                مع تحيات / مجلس إدارة جمعية صباح الناصر التعاونية
               </p>
             </CardContent>
           </Card>

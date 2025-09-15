@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-secondary/20">
       <Navbar />
-      
+
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
@@ -33,28 +33,45 @@ const Contact = () => {
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <p className="font-semibold arabic-body text-lg">البريد الإلكتروني</p>
-                    <p className="text-muted-foreground">info@adailiya-coop.com</p>
+                    <p className="font-semibold arabic-body text-lg">
+                      البريد الإلكتروني
+                    </p>
+                    <p className="text-muted-foreground">
+                      info@sabahalnaser.com
+                    </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <Phone className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <p className="font-semibold arabic-body text-lg">رقم الهاتف</p>
-                    <p className="text-muted-foreground">+965 XXXX XXXX</p>
+                    <p className="font-semibold arabic-body text-lg">
+                      رقم الهاتف
+                    </p>
+                    <p>
+                      الهاتف:{" "}
+                      <span
+                        className="inline-block"
+                        style={{ direction: "ltr", unicodeBidi: "embed" }}
+                      >
+                        +965 6040 1200
+                      </span>
+                    </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <MapPin className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <p className="font-semibold arabic-body text-lg">العنوان</p>
-                    <p className="text-muted-foreground">منطقة العديلية - قطعة 4<br />دولة الكويت</p>
+                    <p className="text-muted-foreground">
+                      محافظة الفروانية - منطقة صباح الناصر - <br />
+                      دولة الكويت
+                    </p>
                   </div>
                 </div>
               </CardContent>
@@ -78,7 +95,7 @@ const Contact = () => {
                   </div>
                   <div className="flex justify-between items-center p-3 bg-secondary/20 rounded-lg">
                     <span className="font-semibold">الإدارة:</span>
-                    <span>من 8 صباحاً - 4 عصراً</span>
+                    <span>من 8 صباحاً - 3 عصراً</span>
                   </div>
                 </div>
               </CardContent>

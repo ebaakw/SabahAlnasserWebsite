@@ -6,7 +6,7 @@ const Terms = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
       <Navbar />
-      
+
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="text-center space-y-4">
@@ -14,35 +14,55 @@ const Terms = () => {
               الشروط والأحكام
             </h1>
             <p className="text-lg text-muted-foreground arabic-body">
-              جمعية العديلية التعاونية
+              جمعية صباح الناصر التعاونية
             </p>
           </div>
 
           <Card className="p-8 bg-white/80 backdrop-blur-sm shadow-lg">
             <div className="space-y-6 arabic-body text-right">
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">مقدمة</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  مقدمة
+                </h2>
                 <p className="leading-relaxed">
-                  مرحباً بكم في تطبيق جمعية العديلية التعاونية. باستخدامك لهذا التطبيق، فإنك توافق على الالتزام بهذه الشروط والأحكام. 
+                  مرحباً بكم في تطبيق جمعية صباح الناصر التعاونية. باستخدامك
+                  لهذا التطبيق، فإنك توافق على الالتزام بهذه الشروط والأحكام.
                   يرجى قراءة هذه الشروط بعناية قبل استخدام التطبيق.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">تعريفات</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  تعريفات
+                </h2>
                 <ul className="list-disc list-inside space-y-2 mr-4">
-                  <li><strong>الجمعية:</strong> جمعية العديلية التعاونية</li>
-                  <li><strong>التطبيق:</strong> تطبيق جمعية العديلية التعاونية للهواتف الذكية</li>
-                  <li><strong>المستخدم:</strong> أي شخص يستخدم التطبيق</li>
-                  <li><strong>العضو:</strong> العضو المسجل رسمياً في الجمعية</li>
-                  <li><strong>الخدمات:</strong> جميع الخدمات المتاحة عبر التطبيق</li>
+                  <li>
+                    <strong>الجمعية:</strong> جمعية صباح الناصر التعاونية
+                  </li>
+                  <li>
+                    <strong>التطبيق:</strong> تطبيق جمعية صباح الناصر التعاونية
+                    للهواتف الذكية
+                  </li>
+                  <li>
+                    <strong>المستخدم:</strong> أي شخص يستخدم التطبيق
+                  </li>
+                  <li>
+                    <strong>العضو:</strong> العضو المسجل رسمياً في الجمعية
+                  </li>
+                  <li>
+                    <strong>الخدمات:</strong> جميع الخدمات المتاحة عبر التطبيق
+                  </li>
                 </ul>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">شروط الاستخدام</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  شروط الاستخدام
+                </h2>
                 <ul className="list-disc list-inside space-y-2 mr-4">
-                  <li>يجب أن تكون عضواً مسجلاً في الجمعية لاستخدام بعض الخدمات</li>
+                  <li>
+                    يجب أن تكون عضواً مسجلاً في الجمعية لاستخدام بعض الخدمات
+                  </li>
                   <li>يجب تقديم معلومات صحيحة ودقيقة عند التسجيل</li>
                   <li>المحافظة على سرية كلمة المرور وبيانات الحساب</li>
                   <li>عدم استخدام التطبيق لأغراض غير قانونية أو ضارة</li>
@@ -51,7 +71,9 @@ const Terms = () => {
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">الخدمات المتاحة</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  الخدمات المتاحة
+                </h2>
                 <ul className="list-disc list-inside space-y-2 mr-4">
                   <li>تصفح المنتجات والخدمات</li>
                   <li>إجراء الطلبات والمعاملات</li>
@@ -62,7 +84,9 @@ const Terms = () => {
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">التزامات المستخدم</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  التزامات المستخدم
+                </h2>
                 <ul className="list-disc list-inside space-y-2 mr-4">
                   <li>الاستخدام المسؤول للتطبيق</li>
                   <li>عدم محاولة اختراق أو إلحاق الضرر بالنظام</li>
@@ -73,9 +97,12 @@ const Terms = () => {
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">السياسة المالية</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  السياسة المالية
+                </h2>
                 <p className="leading-relaxed mb-3">
-                  جميع المعاملات المالية تتم وفقاً للأنظمة والقوانين المعمول بها في دولة الكويت:
+                  جميع المعاملات المالية تتم وفقاً للأنظمة والقوانين المعمول بها
+                  في دولة الكويت:
                 </p>
                 <ul className="list-disc list-inside space-y-2 mr-4">
                   <li>جميع الأسعار معروضة بالدينار الكويتي</li>
@@ -86,15 +113,20 @@ const Terms = () => {
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">حقوق الملكية الفكرية</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  حقوق الملكية الفكرية
+                </h2>
                 <p className="leading-relaxed">
-                  جميع المحتويات والتصاميم والعلامات التجارية في التطبيق مملوكة لجمعية العديلية التعاونية. 
-                  يُمنع استخدامها دون إذن كتابي مسبق.
+                  جميع المحتويات والتصاميم والعلامات التجارية في التطبيق مملوكة
+                  لجمعية صباح الناصر التعاونية. يُمنع استخدامها دون إذن كتابي
+                  مسبق.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">المسؤولية والضمان</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  المسؤولية والضمان
+                </h2>
                 <ul className="list-disc list-inside space-y-2 mr-4">
                   <li>نسعى لتوفير خدمة موثوقة ولكن لا نضمن عدم انقطاعها</li>
                   <li>غير مسؤولين عن الأضرار الناتجة عن سوء الاستخدام</li>
@@ -104,37 +136,57 @@ const Terms = () => {
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">الإنهاء والتعليق</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  الإنهاء والتعليق
+                </h2>
                 <p className="leading-relaxed">
-                  نحتفظ بالحق في تعليق أو إنهاء حسابك في حالة مخالفة هذه الشروط. 
+                  نحتفظ بالحق في تعليق أو إنهاء حسابك في حالة مخالفة هذه الشروط.
                   يمكنك أيضاً إلغاء حسابك في أي وقت.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">القانون الحاكم</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  القانون الحاكم
+                </h2>
                 <p className="leading-relaxed">
-                  تخضع هذه الشروط لقوانين دولة الكويت، وأي نزاع يُحال إلى المحاكم الكويتية المختصة.
+                  تخضع هذه الشروط لقوانين دولة الكويت، وأي نزاع يُحال إلى
+                  المحاكم الكويتية المختصة.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">التعديلات</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  التعديلات
+                </h2>
                 <p className="leading-relaxed">
-                  نحتفظ بالحق في تعديل هذه الشروط في أي وقت. سيتم إشعارك بالتغييرات الجوهرية عبر التطبيق.
+                  نحتفظ بالحق في تعديل هذه الشروط في أي وقت. سيتم إشعارك
+                  بالتغييرات الجوهرية عبر التطبيق.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-xl font-semibold text-primary mb-3">التواصل</h2>
+                <h2 className="text-xl font-semibold text-primary mb-3">
+                  التواصل
+                </h2>
                 <p className="leading-relaxed">
                   لأي استفسارات حول الشروط والأحكام:
                 </p>
                 <div className="mt-4 p-4 bg-muted/50 rounded-lg">
-                  <p><strong>جمعية العديلية التعاونية</strong></p>
-                  <p>الكويت - العديلية</p>
-                  <p>البريد الإلكتروني: info@adailiya-coop.com</p>
-                  <p>الهاتف: +965 XXXX XXXX</p>
+                  <p>
+                    <strong>جمعية صباح الناصر التعاونية</strong>
+                  </p>
+                  <p>الكويت - صباح الناصر</p>
+                  <p>البريد الإلكتروني: info@sabahalnaser.com</p>
+                  <p>
+                    الهاتف:{" "}
+                    <span
+                      className="inline-block"
+                      style={{ direction: "ltr", unicodeBidi: "embed" }}
+                    >
+                      +965 6040 1200
+                    </span>
+                  </p>
                   <p>ساعات العمل: 8:00 صباحاً - 10:00 مساءً</p>
                 </div>
               </section>
