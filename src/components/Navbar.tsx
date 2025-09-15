@@ -24,6 +24,20 @@ const Navbar = () => {
               <Link to="/">الرئيسية</Link>
             </Button>
             <Button
+              variant={isActive("/about") ? "default" : "ghost"}
+              asChild
+              className="arabic-body"
+            >
+              <Link to="/about">نبذة عنا</Link>
+            </Button>
+            <Button
+              variant={isActive("/contact") ? "default" : "ghost"}
+              asChild
+              className="arabic-body"
+            >
+              <Link to="/contact">تواصل معنا</Link>
+            </Button>
+            <Button
               variant={isActive("/privacy") ? "default" : "ghost"}
               asChild
               className="arabic-body"
