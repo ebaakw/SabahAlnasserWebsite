@@ -2,7 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import logo from "@/assets/logo.png";
+import cooperativeLogo from "@/assets/cooperative-logo.png";
+import appleLogo from "@/assets/apple-logo.png";
+import googlePlayLogo from "@/assets/google-play-logo.png";
 
 const Index = () => {
   return (
@@ -17,9 +19,9 @@ const Index = () => {
               جمعية العديلية التعاونية ترحب بكم
             </h1>
             
-            <div className="flex justify-center">
+            <div className="flex justify-center mb-6">
               <img 
-                src={logo} 
+                src={cooperativeLogo} 
                 alt="شعار جمعية العديلية التعاونية" 
                 className="h-48 md:h-64 w-auto object-contain"
               />
@@ -43,7 +45,7 @@ const Index = () => {
             >
               <a href="#" title="تحميل من جوجل بلاي">
                 <div className="flex items-center gap-3">
-                  <div className="text-2xl">📱</div>
+                  <img src={googlePlayLogo} alt="Google Play" className="w-8 h-8" />
                   <div className="text-right">
                     <div className="text-xs opacity-80">متوفر على</div>
                     <div>Google Play</div>
@@ -63,7 +65,7 @@ const Index = () => {
                 title="تحميل من أب ستور"
               >
                 <div className="flex items-center gap-3">
-                  <div className="text-2xl">🍎</div>
+                  <img src={appleLogo} alt="Apple" className="w-8 h-8" />
                   <div className="text-right">
                     <div className="text-xs opacity-80">تحميل من</div>
                     <div>App Store</div>
