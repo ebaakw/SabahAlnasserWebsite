@@ -20,7 +20,7 @@ const About = () => {
               نبذة عن جمعية ضاحية صباح الناصر التعاونية
             </h1>
             <p className="text-xl text-muted-foreground arabic-body">
-              1989 - 2022
+              1989 - 2025
             </p>
           </div>
 
